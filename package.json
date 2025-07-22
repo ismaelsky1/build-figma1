@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ismaelsky1/build-figma.git"
+    "url": "git+https://github.com/ismaelsky1/build-figma1.git"
   },
   "keywords": [
     "build-figma",
@@ -37,7 +37,7 @@
   "author": "Ismael Reis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ismaelsky1/build-figma/issues"
+    "url": "https://github.com/ismaelsky1/build-figma1/issues"
   },
-  "homepage": "https://github.com/ismaelsky1/build-figma#readme"
+  "homepage": "https://github.com/ismaelsky1/build-figma1#readme"
 }
