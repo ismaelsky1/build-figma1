@@ -1,0 +1,146 @@
+.contact-section {
+  height: 335px;
+  align-self: stretch;
+  position: relative;
+}
+
+.contact-background {
+  width: 1440px;
+  height: 335px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  background: #F0F2F4;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.contact-content {
+  width: 1215px;
+  height: 326px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 112px;
+  top: 0px;
+}
+
+.contact-decoration {
+  width: 604px;
+  height: 326px;
+  flex-shrink: 0;
+  opacity: 0.07;
+  position: absolute;
+  left: 421px;
+  top: 0px;
+}
+
+.contact-header {
+  display: flex;
+  width: 399px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: absolute;
+  left: 0px;
+  top: 46px;
+  height: 153px;
+}
+
+.header-label {
+  color: var(--green-03);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.label-main {
+  color: var(--blue-01);
+}
+
+.label-accent {
+  color: var(--green-03);
+}
+
+.header-title {
+  width: 1534px;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 110%;
+  background: var(--green-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-description {
+  width: 234px;
+  color: var(--black-2);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 165%;
+  position: absolute;
+  left: 0px;
+  top: 238px;
+  height: 52px;
+}
+
+.contact-options {
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  left: 487px;
+  top: 57px;
+}
+
+.contact-card {
+  width: 220px;
+  height: 212px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #FFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-icon {
+  max-width: 61px;
+  max-height: 60px;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  color: var(--black-2);
+  text-align: center;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-label {
+  color: var(--black-2);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 165%;
+}
+
+.contact-value {
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 165%;
+  background: var(--green-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

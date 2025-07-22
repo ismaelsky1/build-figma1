@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.footer-section8 {
+  height: 256px;
+  align-self: stretch;
+  position: relative;
+}
+
+.footer-navbar {
+  width: 1440px;
+  height: 65px;
+  position: relative;
+}

@@ -1,0 +1,16 @@
+.content-section {
+  display: flex;
+  padding: 92px 109px 66px 109px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+}
+
+.content-image {
+  width: 1222px;
+  height: 670px;
+  position: absolute;
+  left: 109px;
+  top: 92px;
+}

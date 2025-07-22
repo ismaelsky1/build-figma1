@@ -1,0 +1,371 @@
+.comparison-section {
+  display: flex;
+  padding: 77px 119px 49px 111px;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+}
+
+.comparison-content {
+  width: 1210px;
+  height: 691px;
+  position: relative;
+}
+
+.comparison-header {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 470px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1212px;
+  height: 141px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.header-label {
+  align-self: stretch;
+  color: var(--blue-01);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-title {
+  align-self: stretch;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 110%;
+  background: var(--green-2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-highlight {
+  color: var(--blue-01);
+}
+
+.header-navigation {
+  width: 92px;
+  height: 84px;
+  position: relative;
+}
+
+.nav-arrows {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+  width: 92px;
+  height: 40px;
+}
+
+.arrow-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 85px;
+  height: 5px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 5px;
+  top: 0px;
+}
+
+.progress-bar::before {
+  content: '';
+  width: 85px;
+  height: 5px;
+  border-radius: 12px;
+  opacity: 0.2;
+  background: var(--green-2);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.progress-fill {
+  width: 29px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--green-2);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.comparison-cards {
+  position: absolute;
+  top: 248px;
+  left: 0px;
+  width: 100%;
+  height: 443px;
+}
+
+.without-company {
+  width: 219px;
+  height: 260px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0px;
+  top: 285px;
+}
+
+.without-company .emoji-icon {
+  color: #000;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+}
+
+.without-company .card-title {
+  color: var(--blue-01);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.78;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  width: 166px;
+  height: 23px;
+}
+
+.without-company .card-description {
+  width: 219px;
+  color: var(--black-2);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 165%;
+  opacity: 0.9;
+  position: absolute;
+  left: 0px;
+  top: 78px;
+  height: 182px;
+}
+
+.with-company {
+  width: 363px;
+  height: 350px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 329px;
+  top: 248px;
+}
+
+.with-company::before {
+  content: '';
+  width: 363px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 10px 30px 0px rgba(46, 34, 57, 0.10);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.with-company .emoji-icon {
+  color: #000;
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 55px;
+  top: 37px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+
+.with-company .card-title {
+  color: var(--blue-01);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 49px;
+  top: 77px;
+  width: 201px;
+  height: 28px;
+  z-index: 1;
+}
+
+.with-company .card-description {
+  width: 275px;
+  color: var(--black-2);
+  font-family: Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 165%;
+  opacity: 0.9;
+  position: absolute;
+  left: 49px;
+  top: 115px;
+  height: 130px;
+  z-index: 1;
+}
+
+.visual-element {
+  width: 440px;
+  height: 507px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 772px;
+  top: 184px;
+}
+
+.top-graphic {
+  width: 321px;
+  height: 179px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 38px;
+  top: 0px;
+}
+
+.gradient-shape {
+  width: 348px;
+  height: 350px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 92px;
+  top: 64px;
+}
+
+.dashed-line {
+  width: 0px;
+  height: 115px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 234px;
+  top: 192px;
+}
+
+.floating-card {
+  width: 438px;
+  height: 351px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0px;
+  top: 156px;
+}
+
+.card-shadow {
+  width: 291px;
+  height: 187px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  border-radius: 12px;
+  opacity: 0.09;
+  background: #000;
+  filter: blur(16px);
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+
+.card-background {
+  width: 291px;
+  height: 187px;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  border-radius: 12px;
+  opacity: 0.1;
+  background: var(--green-2);
+  position: absolute;
+  left: 0px;
+  top: 59px;
+}
+
+.info-card {
+  width: 151px;
+  height: 80px;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.2;
+  background: #FFF;
+  position: absolute;
+  left: 146px;
+  top: 33px;
+}
+
+.info-content {
+  width: 113px;
+  height: 86px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 131px;
+  top: 52px;
+}
+
+.info-avatar {
+  width: 38px;
+  height: 38px;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.45;
+  background: #FFF;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.info-lines {
+  position: absolute;
+  left: 41px;
+  top: 23px;
+}
+
+.info-line {
+  height: 8px;
+  transform: rotate(0deg);
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.4;
+  background: #FFF;
+  margin-bottom: 6px;
+}
+
+.info-line:nth-child(1) {
+  width: 84px;
+}
+
+.info-line:nth-child(2) {
+  width: 73px;
+}
+
+.info-line:nth-child(3) {
+  width: 55px;
+}
